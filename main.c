@@ -6,7 +6,7 @@ char *cmd[] = {"mkdir", "rmdir", "ls", "cd", "pwd", "touch", "rm",
  "menu", "tree", "quit", NULL};
 
 /*
-Uses the user's input to determine what command will be used
+This Uses the user's input to determine what command will be used
 Called by the switch case in main
 */
 int findCMD(char* command){
